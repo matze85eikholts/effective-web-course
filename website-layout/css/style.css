@@ -1,0 +1,8 @@
+/*Definiton of the color names */
+:root {
+    --white-color: #fff;
+    --completely-black-color: #000;
+}
+body {
+    background-color: var(--completely-black-color);
+}
