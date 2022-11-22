@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Countdown timer</title>
+  </head>
+  <body>
+    <main>
+      <div class="timer-container">
+        <div class="minutes-buttons">
+          <button id="btn-minute" class="btn">1 минута</button>
+          <button id="btn-5minutes" class="btn">5 минут</button>
+          <button id="btn-10minutes" class="btn">10 минут</button>
+        </div>
+        <div class="inputs">
+          <div class="input-form">
+            <input id="minutes" />
+            минут
+          </div>
+          <div class="input-form">
+            <input id="seconds" />
+            секунд
+          </div>
+        </div>
+        <div class="control-buttons">
+          <button id="btn-start" class="btn">start</button>
+          <button id="btn-stop" class="btn">stop</button>
+          <button id="btn-reset" class="btn">reset</button>
+        </div>
+        <audio id="melody" src="sounds/victory.mp3"></audio>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
